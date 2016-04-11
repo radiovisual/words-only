@@ -1,0 +1,50 @@
+{
+  "name": "words-only",
+  "version": "0.0.1",
+  "description": "Remove anything that isn't a word or letter from a string.",
+  "license": "MIT",
+  "repository": "radiovisual/words-only",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "words-only",
+    "words",
+    "only",
+    "languages",
+    "string",
+    "from",
+    "letter",
+    "character",
+    "or",
+    "word",
+    "isn't",
+    "that",
+    "anything",
+    "strip",
+    "filter",
+    "remove"
+  ],
+  "dependencies": {
+    "letterset": "0.0.3",
+    "selective-whitespace": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.1.1",
+    "xo": "^0.12.1"
+  }
+}
