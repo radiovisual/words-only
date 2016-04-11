@@ -4,6 +4,7 @@
 
 [![Build Status](https://travis-ci.org/radiovisual/words-only.svg?branch=master)](https://travis-ci.org/radiovisual/words-only) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/words-only/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/words-only?branch=master)
 
+**Note:** This is a work in progress. Testing and Pull Requests welcome. 
 
 ## Install
 
